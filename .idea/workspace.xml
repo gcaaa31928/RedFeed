@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123ee970-b594-4191-a886-712072731e3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RedFeed.iml" afterPath="$PROJECT_DIR$/.idea/RedFeed.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedFeedFrontend/app/app.html" afterPath="$PROJECT_DIR$/RedFeedFrontend/app/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedFeedFrontend/app/app.style.css" afterPath="$PROJECT_DIR$/RedFeedFrontend/app/app.style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedFeedFrontend/index.html" afterPath="$PROJECT_DIR$/RedFeedFrontend/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedFeedFrontend/package.json" afterPath="$PROJECT_DIR$/RedFeedFrontend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedFeedFrontend/style.css" afterPath="$PROJECT_DIR$/RedFeedFrontend/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -42,8 +34,8 @@
           <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/RedFeedFrontend/app/app.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+                <state relative-caret-position="440">
+                  <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -373,12 +365,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502718419370</updated>
       <workItem from="1502718420640" duration="6341000" />
-      <workItem from="1502799580939" duration="11628000" />
+      <workItem from="1502799580939" duration="11664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17969000" />
+    <option name="totallyTimeSpent" value="18005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1634" height="1066" extended-state="6" />
@@ -490,18 +482,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedFeedFrontend/app/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RedFeedFrontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedFeedFrontend/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
