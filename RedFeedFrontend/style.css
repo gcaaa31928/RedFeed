@@ -1,0 +1,9 @@
+body {
+    background-color: #333;
+    color: #fff;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,.5);
+}
+
+html, body {
+    height: 100%;
+}

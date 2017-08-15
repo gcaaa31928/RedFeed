@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RedFeed.iml" filepath="$PROJECT_DIR$/.idea/RedFeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedFeedBackend/.idea/RedFeedBackend.iml" filepath="$PROJECT_DIR$/RedFeedBackend/.idea/RedFeedBackend.iml" />
     </modules>
   </component>
 </project>
