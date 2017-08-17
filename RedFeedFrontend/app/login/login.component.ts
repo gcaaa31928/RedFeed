@@ -10,5 +10,8 @@ export class LoginComponent {
     constructor() {
 
     }
+
+    loginSuccess() {
+    }
 }
 
