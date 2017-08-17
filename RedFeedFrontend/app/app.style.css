@@ -2,19 +2,13 @@
     width: 100%;
     height: 100%;
     display: block;
+    overflow: hidden;
 }
 
 .site-wrapper {
-    width: 100%;
-    height: 100%;
-    display: table;
+    margin-top: 20rem;
 }
 
-.site-wrapper .inner {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
 
 .site-navbar {
     padding: 2rem;

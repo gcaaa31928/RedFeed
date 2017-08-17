@@ -1,0 +1,11 @@
+:host .container {
+    margin-top: 5rem;
+    border-top: white;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 4rem;
+}
+
+:host .inner {
+    text-align: center;
+}
