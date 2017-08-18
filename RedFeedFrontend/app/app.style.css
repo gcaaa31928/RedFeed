@@ -55,3 +55,13 @@
 .site.nav-link:hover:before {
     background: #4682B4;
 }
+
+.site.nav-link.active:hover,
+.site.nav-link.active:hover:before{
+    background: #fff;
+}
+
+.site.nav-link.active {
+    background: #fff;
+    color: #333;
+}
