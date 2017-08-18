@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {LoginComponent} from "./login/login.component";
 import {HomeComponent} from "./home/home.component";
 import {DashComponent} from "./dash/dash.component";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 const appRoutes: Routes = [
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
         RouterModule.forRoot(
             appRoutes,
             {enableTracing: false, useHash: true} // <-- debugging purposes only
-        )
+        ),
+        BrowserAnimationsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
