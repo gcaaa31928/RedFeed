@@ -5,11 +5,13 @@ import {RouterModule, Routes} from '@angular/router';
 import {AppComponent} from './app.component';
 import {LoginComponent} from "./login/login.component";
 import {HomeComponent} from "./home/home.component";
+import {DashComponent} from "./dash/dash.component";
 
 
 const appRoutes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'home', component: HomeComponent},
+    {path: 'dash', component: DashComponent},
     {path: '**', redirectTo: '/home', pathMatch: 'full'},
 ];
 
@@ -17,13 +19,14 @@ const appRoutes: Routes = [
     declarations: [
         AppComponent,
         LoginComponent,
-        HomeComponent
+        HomeComponent,
+        DashComponent
     ],
     imports: [
         BrowserModule,
         RouterModule.forRoot(
             appRoutes,
-            {enableTracing: true, useHash: true} // <-- debugging purposes only
+            {enableTracing: false, useHash: true} // <-- debugging purposes only
         )
     ],
     providers: [],

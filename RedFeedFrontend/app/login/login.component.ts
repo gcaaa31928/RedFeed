@@ -1,4 +1,5 @@
 import {Component, AfterViewInit} from "@angular/core";
+import {Router} from "@angular/router";
 
 @Component({
     selector: 'login',
@@ -7,11 +8,12 @@ import {Component, AfterViewInit} from "@angular/core";
 })
 
 export class LoginComponent {
-    constructor() {
+    constructor(private router: Router) {
 
     }
 
     loginSuccess() {
+        this.router.navigateByUrl('dash');
     }
 }
 
