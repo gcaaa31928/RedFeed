@@ -3,16 +3,57 @@
     display: block;
     height: 100%;
     width: 100%;
-    background-color: #444;
+    background-color: #555;
 }
 
 :host .inner {
-    background-color: #444;
 }
 
 :host .sidebar {
     position: fixed;
-    top: 5rem;
+    top: 6rem;
     bottom: 0;
-    background-color: #555;
+    background-color: #444;
+}
+
+.collection {
+    width: 100%;
+    height: 2rem;
+    padding: 7px;
+    overflow: hidden;
+}
+
+.collection.active {
+    overflow: initial;
+    height: auto;
+}
+
+.feeds.active {
+    height: 0;
+}
+
+.caret {
+    padding-right: 20px;
+    color: #ddd;
+}
+
+.feed {
+    padding-left: 40px;
+    position: relative;
+}
+
+.collection:not(:first-child) {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.unread-count {
+    float: right;
+    position: relative;
+    top: 5px;
 }
