@@ -45,11 +45,13 @@
 .collection:not(:first-child) {
     border-top-style: solid;
     border-top-width: 1px;
+    border-top-color: #555;
 }
 
 .title {
     font-weight: 700;
     margin-bottom: 7px;
+    cursor: pointer;
 }
 
 .unread-count {
