@@ -1,5 +1,5 @@
 import {Component, AfterViewInit} from '@angular/core';
-import {NavigationEnd, Router} from "@angular/router";
+import {NavigationEnd, Router, Event} from "@angular/router";
 import {
     trigger,
     state,

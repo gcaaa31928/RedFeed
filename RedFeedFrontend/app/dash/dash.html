@@ -1,32 +1,18 @@
 <div class="inner container-fluid">
     <div class="row">
         <div class="col-md-3 sidebar">
-            <div class="collection active">
-                <div class="title"><i class="fa fa-caret-down caret" aria-hidden="true"></i>Title</div>
+            <div class="collection" *ngFor="let collection of collections">
+                <div class="title"><i class="fa fa-caret-down caret" aria-hidden="true"></i>
+                    {{collection['title']}}
+                </div>
                 <div class="feeds">
-                    <div class="feed">
-                        <div class="unread-count badge badge-secondary">20</div>
-                        <div class="name">HI</div>
-                    </div>
-                    <div class="feed">
-                        <div class="unread-count badge badge-secondary">20</div>
-                        <div class="name">HI2</div>
+                    <div class="feed" *ngFor="let feed of collection['feeds']">
+                        <div class="unread-count badge badge-secondary">{{feed['unread']}}</div>
+                        <div class="name">{{feed['title']}}</div>
                     </div>
                 </div>
             </div>
-            <div class="collection">
-                <div class="title"><i class="fa fa-caret-down caret" aria-hidden="true"></i>Title</div>
-                <div class="feeds">
-                    <div class="feed">
-                        <div class="unread-count badge badge-secondary">20</div>
-                        <div class="name">HI</div>
-                    </div>
-                    <div class="feed">
-                        <div class="unread-count badge badge-secondary">20</div>
-                        <div class="name">HI2</div>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <div class="col-md-9">
         </div>
