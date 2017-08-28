@@ -1,7 +1,7 @@
 <div class="inner container-fluid">
     <div class="row">
         <div class="col-md-3 sidebar">
-            <div class="collection" *ngFor="let collection of collections">
+            <div class="collection" *ngFor="let collection of collections" [ngClass]="{'active': collection['clicked']}" (click)="collection['clicked'] = !collection['clicked']">
                 <div class="title"><i class="fa fa-caret-down caret" aria-hidden="true"></i>
                     {{collection['title']}}
                 </div>

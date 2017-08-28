@@ -11,6 +11,7 @@ export class DashComponent {
     collections: any = [
         {
             title: 'CollectionsTitle',
+            clicked: false,
             feeds: [
                 {title: 'Feed title1', unread: 20},
                 {title: 'Feed title1', unread: 20},
@@ -19,6 +20,7 @@ export class DashComponent {
         },
         {
             title: 'CollectionsTitle2',
+            clicked: false,
             feeds: [
                 {title: 'Feed title1', unread: 20},
                 {title: 'Feed title1', unread: 20},
@@ -27,6 +29,7 @@ export class DashComponent {
         },
         {
             title: 'CollectionsTitle3',
+            clicked: false,
             feeds: [
                 {title: 'Feed title1', unread: 20},
                 {title: 'Feed title1', unread: 20},
